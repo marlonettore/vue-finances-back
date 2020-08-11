@@ -11,7 +11,7 @@ const corsProtocols = isProduction ? 'wss|https' : 'ws|http'
 
 const origin = new RegExp(`(${corsProtocols}):\/\/(${corsHosts})(.+)?`)
 
-module.exports = {
+module.exports = { //teste
     endpoint,
     env,
     isProduction,
